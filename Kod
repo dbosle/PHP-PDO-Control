@@ -1,6 +1,5 @@
-if (!defined('PDO::ATTR_DRIVER_NAME')) {
-    echo 'PDO unavailable';
-    }
-    else {
-        echo "PDO var<br />s";
+    //-> Check if PDO Available
+    if (!defined('PDO::ATTR_DRIVER_NAME')) {
+        echo ' - PDO Unavailable - ';
+        die();
     }
