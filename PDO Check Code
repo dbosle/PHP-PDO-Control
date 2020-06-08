@@ -1,5 +1,5 @@
     //-> Check if PDO Available
     if (!defined('PDO::ATTR_DRIVER_NAME')) {
-        echo ' - PDO Unavailable - ';
+        echo ' - PDO is Unavailable - ';
         die();
     }
